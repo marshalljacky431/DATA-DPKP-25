@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dinas Pertanian & Ketahanan Pangan - Ngada</title>
+  <style>
+    body, h1, h2, p, ul, li {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f1f8f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.1em;
+      margin: 5px 0;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #2e7d32;
+      font-size: 1.5em;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: white;
+      margin: 10px 0;
+      padding: 15px;
+      border-left: 5px solid #2e7d32;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    li span {
+      flex: 1;
+      font-weight: bold;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .download-btn, .preview-btn {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .download-btn:hover, .preview-btn:hover {
+      background-color: #1c6e27;
+    }
+
+    @media (max-width: 600px) {
+      li {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .button-group {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="images/logo-dinas.png" alt="Logo Dinas">
+    <h1>Dinas Pertanian & Ketahanan Pangan<br>Kabupaten Ngada</h1>
+    <p>Media Dokumen Pengajuan Keuangan</p>
+    <a href="https://distankpngada.github.io/DATA-DPKP/" target="_blank">Kunjungi Website Kami</a>
+  </header>
+
+  <main>
+    <h2>📂 Daftar Dokumen</h2>
+    <ul>
+      <li>
+        <span>Template SPP</span>
+        <div class="button-group">
+          <a href="docs/template-spp.pdf" class="preview-btn" target="_blank">Preview</a>
+          <a href="docs/template-spp.pdf" class="download-btn" download>Unduh</a>
+        </div>
+      </li>
+      <li>
+        <span>Format Laporan Pertanggungjawaban</span>
+        <div class="button-group">
+          <a href="docs/format-laporan.xlsx" class="preview-btn" target="_blank">Preview</a>
+          <a href="docs/format-laporan.xlsx" class="download-btn" download>Unduh</a>
+        </div>
+      </li>
+      <li>
+        <span>Syarat Realisasi Anggaran</span>
+        <div class="button-group">
+          <a href="docs/syarat-realisasi.pdf" class="preview-btn" target="_blank">Preview</a>
+          <a href="docs/syarat-realisasi.pdf" class="download-btn" download>Unduh</a>
+        </div>
+      </li>
+      <li>
+        <span>Kelengkapan LS Kontraktual</span>
+        <div class="button-group">
+          <a href="docs/kelengkapan-ls-kontraktual.pdf" class="preview-btn" target="_blank">Preview</a>
+          <a href="docs/kelengkapan-ls-kontraktual.pdf" class="download-btn" download>Unduh</a>
+        </div>
+      </li>
+    </ul>
+  </main>
+
+  <footer style="background-color: #2e7d32; color: white; padding: 10px; text-align: center;">
+    <p>Klik disini untuk Verifikasi SUNPRO</p>
+    <p><a href="https://docs.google.com/forms/d/1PS8vDDFYbd4lklpauLeRUP1tNzqFGIXyNaMNHoTuM3o/edit" target="_blank" style="color: white; text-decoration: none;">Verifikasi Penyerahan Barang</a></p>
+  </footer>
+
+</body>
+</html>
